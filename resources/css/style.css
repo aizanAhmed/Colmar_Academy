@@ -131,3 +131,40 @@ header {
     display: inline-block;
     padding: 0.5rem 5.5rem;
 }
+
+/* Introduction Section */
+
+#intro-section {
+    display: flex;
+}
+
+.image-container-main h1 {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.image-container-main p {
+    padding-bottom: 2rem;
+    font-weight: 300;
+}
+
+.image-container-main span {
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+
+.content-container h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.content-container p {
+    padding: 0.5rem 0;
+    font-weight: 300;
+}
+
+.content-container a {
+    color: blue;
+}
