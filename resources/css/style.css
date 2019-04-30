@@ -3,3 +3,95 @@
     margin: 0;
     padding: 0;
 }
+
+/* Universal Style */
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.image-container-main {
+    width: 60%;
+    padding: 2rem 1.5rem;
+}
+
+.image-container-main img {
+    max-width: 100%;
+}
+
+.content-container-main {
+    width: 40%;
+    padding-top: 1rem;
+}
+
+.image-container {
+    width: 35%;
+    padding: 1rem 1rem;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-container {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+}
+
+/* Header Section */
+
+header {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 2rem;
+}
+
+.text-1 {
+    font-weight: 500;
+}
+
+.text-2 {
+    color: grey;
+}
+
+.desktop ul {
+    display: flex;
+}
+
+.desktop ul a {
+    padding: 0 1rem;
+}
+
+.desktop ul a:last-child {
+    padding-right: 0;
+}
+
+.mobile {
+    display: none;
+}
