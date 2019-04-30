@@ -95,3 +95,39 @@ header {
 .mobile {
     display: none;
 }
+
+/* Banner Section */
+
+#banner-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+.content h1,
+.content h3 {
+    padding-bottom: 2rem;
+}
+
+.content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.content h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.content a {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+
+.content .btn {
+    background-color: black;
+    display: inline-block;
+    padding: 0.5rem 5.5rem;
+}
