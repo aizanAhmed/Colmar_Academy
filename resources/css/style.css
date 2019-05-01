@@ -184,10 +184,14 @@ header {
     color: blue;
 }
 
+.container.guest {
+    background-color: #88cbdc;
+}
+
 /* Course Section */
 
 #course-section {
-    background-color: #EAF4F4;
+    background-color: #eaf4f4;
 }
 
 #heading {
@@ -255,6 +259,10 @@ header {
 
 .thesis {
     display: flex;
+}
+
+.container.proto {
+    background-color: #e07879;
 }
 
 p.para {
