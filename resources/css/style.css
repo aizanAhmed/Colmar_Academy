@@ -168,3 +168,50 @@ header {
 .content-container a {
     color: blue;
 }
+
+/* Course Section */
+
+#course-section {
+    background-color: #f6f6f6;
+}
+
+#heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#course-container-main {
+    margin: 2rem 4.5rem;
+    display: flex;
+}
+
+.course {
+    width: 32.5%;
+    background-color: white;
+}
+
+.course.two,
+.course.five {
+    margin: 0 2rem;
+}
+
+.course img {
+    max-width: 100%;
+}
+
+.course-content {
+    padding: 1rem 0 2rem 1rem;
+}
+
+.course-content h3 {
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.course-content p {
+    padding-top: 0.5rem;
+    font-weight: 300;
+}
