@@ -8,6 +8,7 @@
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    word-spacing: 0.10rem;
     color: black;
 }
 
@@ -16,6 +17,9 @@ a {
     color: black;
 }
 
+p {
+    font-size: 0.875rem;
+}
 
 .image-container-main {
     width: 60%;
@@ -53,7 +57,7 @@ a {
 }
 
 .image-container-main h3 {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     font-weight: 500;
     padding-top: 2rem;
     padding-bottom: 1.5rem;
@@ -112,7 +116,7 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #f6f6f6;
+    background-color: #e0e0e0;
     padding-top: 4rem;
 }
 
@@ -127,7 +131,7 @@ header {
 }
 
 .content h3 {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
@@ -138,7 +142,7 @@ header {
 }
 
 .content .btn {
-    background-color: black;
+    background-color: #696969;
     display: inline-block;
     padding: 0.5rem 5.5rem;
 }
@@ -167,7 +171,7 @@ header {
 }
 
 .content-container h3 {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
@@ -183,7 +187,7 @@ header {
 /* Course Section */
 
 #course-section {
-    background-color: #f6f6f6;
+    background-color: #EAF4F4;
 }
 
 #heading {
@@ -193,14 +197,23 @@ header {
     padding-top: 2rem;
 }
 
-#course-container-main {
-    margin: 2rem 4.5rem;
+#course-container-main-1 {
+    padding: 2rem 4.5rem 1rem 4.5rem;
     display: flex;
+}
+
+#course-container-main-2 {
+    display: flex;
+    padding: 1rem 4.5rem 2rem 4.5rem;
 }
 
 .course {
     width: 32.5%;
     background-color: white;
+}
+
+.course span {
+    font-size: 0.9rem;
 }
 
 .course.two,
@@ -218,7 +231,7 @@ header {
 
 .course-content h3 {
     padding-bottom: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
@@ -229,6 +242,10 @@ header {
 
 /* Thesis Section */
 
+#thesis-section {
+    background-color: #e0e0e0;
+}
+
 #thesis-section h2 {
     text-align: center;
     font-size: 1.5rem;
@@ -236,6 +253,9 @@ header {
     padding-top: 2rem;
 }
 
+.thesis {
+    display: flex;
+}
 
 p.para {
     padding-bottom: 0;
@@ -250,6 +270,7 @@ footer {
     justify-content: space-between;
     padding: 1rem 1.5rem 0 1.5rem;
     font-size: 0.75rem;
+    background-color: white;
 }
 
 footer nav ul {
@@ -263,4 +284,3 @@ footer nav ul a {
 footer nav ul a:last-child {
     padding-right: 0;
 }
-
