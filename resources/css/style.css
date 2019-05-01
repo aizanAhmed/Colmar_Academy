@@ -52,6 +52,13 @@ a {
     display: flex;
 }
 
+.image-container-main h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
 /* Header Section */
 
 header {
@@ -214,4 +221,18 @@ header {
 .course-content p {
     padding-top: 0.5rem;
     font-weight: 300;
+}
+
+/* Thesis Section */
+
+#thesis-section h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 2rem;
+}
+
+
+p.para {
+    padding-bottom: 0;
 }
