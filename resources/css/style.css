@@ -236,3 +236,27 @@ header {
 p.para {
     padding-bottom: 0;
 }
+
+/* Footer Section */
+
+footer {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem 0 1.5rem;
+    font-size: 0.75rem;
+}
+
+footer nav ul {
+    display: flex;
+}
+
+footer nav ul a {
+    padding: 0 0.5rem;
+}
+
+footer nav ul a:last-child {
+    padding-right: 0;
+}
+
