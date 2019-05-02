@@ -27,13 +27,12 @@
                 <li><a href="#">Sign in</a></li>
             </ul>
         </nav>
-        <nav class="mobile">
-            <ul>
-                <li><a href="#"><img src="./resources/images/ic-on-campus.svg"></a></li>
-                <li><a href="#"><img src="./resources/images/ic-online.svg"></a></li>
-                <li><a href="#"><img src="./resources/images/ic-login.svg"></a></li>
-            </ul>
-        </nav>
+        <div class="mobile">
+            <img src="./resources/images/ic-logo.svg">
+            <a href="#"><img src="./resources/images/ic-on-campus.svg"></a>
+            <a href="#"><img src="./resources/images/ic-online.svg"></a>
+            <a href="#"><img src="./resources/images/ic-login.svg"></a>
+        </div>
     </header>
 
  <!-- Banner-Section -->
@@ -44,8 +43,8 @@
         </div>
         <div class="content-container-main">
             <div class="content">
-                <h1>Learn Something<br>New Everyday</h1>
-                <h3>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</h3>
+                <h1>Learn Something<br> New Everyday</h1>
+                <h3>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</h3>
                 <a class="btn" href="#">Start here</a>
             </div>
         </div>
@@ -54,16 +53,17 @@
  <!-- Introduction-Section-->
 
     <div id="intro-section">
-        <div class="image-container-main">
+        <div class="image-container-main desktop">
             <img src="./resources/images/information-main.jpg">
             <h1>It doesn't hurt to keep practicing</h1>
             <p>"Curabitur vitae libero in ipsum porttitor consequat.Aliuam et commodo lectus, nec consequat neque.Sed non accumsan urna.Phasellus sed consequat ex.Etiam eget magna laoreet, efficitur dolor consequat, tristiue ligula"</p>
             <span>Emanuel, Sr Strategist at Hiring.com</span>
         </div>    
         <div class="content-container-main">
-            <div class="container">
+            <div class="container column">
                 <div class="image-container">
-                    <img src="./resources/images/information-orientation.jpg">
+                    <img class="desktop" src="./resources/images/information-orientation.jpg">
+                    <img class="mob-img" src="./resources/images/information-orientation-mobile.jpg">
                 </div>
                 <div class="content-container">
                     <h3>Orientation date</h3>
@@ -71,9 +71,10 @@
                     <a href="#">Read more</a>
                 </div>
             </div>
-            <div class="container">
+            <div class="container column">
                 <div class="image-container">
-                    <img src="./resources/images/information-campus.jpg">
+                    <img class="desktop" src="./resources/images/information-campus.jpg">
+                    <img class="mob-img" src="./resources/images/information-campus-mobile.jpg">
                 </div>
                 <div class="content-container">
                     <h3>Our campus</h3>
@@ -81,9 +82,10 @@
                     <a href="#">Read more</a>
                 </div>
             </div>
-            <div class="container guest">
+            <div class="container guest column">
                 <div class="image-container">
-                    <img src="./resources/images/information-guest-lecture.jpg">
+                    <img class="desktop" src="./resources/images/information-guest-lecture.jpg">
+                    <img class="mob-img" src="./resources/images/information-guest-lecture-mobile.jpg">
                 </div>
                 <div class="content-container">
                     <h3>Our guest lecture</h3>
@@ -110,7 +112,7 @@
                 </div>
             </div>
             <div class="course two">
-                <img src="./resources/images/course-computer-art.jpg">
+                <img  src="./resources/images/course-computer-art.jpg">
                 <div class="course-content">
                     <h3>Computer Art</h3>
                     <span>COURSES</span>
@@ -118,7 +120,7 @@
                 </div>
             </div>
             <div class="course three">
-                <img src="./resources/images/course-design.jpg">
+                <img  src="./resources/images/course-design.jpg">
                 <div class="course-content">
                     <h3>Design</h3>
                     <span>COURSES</span>
@@ -151,6 +153,14 @@
                     <p>Analytics, Content Marketing,<br>Mobile Marketing</p>
                 </div>
             </div>
+        </div>
+        <div class="mob-courses">
+            <a href="#"><h3 class="button">Software Engineering</h3></a>
+            <a href="#"><h3 class="button">Computer Art</h3></a>
+            <a href="#"><h3 class="button">Design</h3></a>
+            <a href="#"><h3 class="button">Data</h3></a>
+            <a href="#"><h3 class="button">Business</h3></a>
+            <a href="#"><h3 class="button">Marketing</h3></a>
         </div>
     </div>
 
@@ -185,6 +195,11 @@
                         <p>Research study about New York</p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="mob-thesis">
+            <div class="video-container">
+                <video src="./resources/videos/thesis.mp4" width="100%" height="auto" controls>Video not supportedw</video>
             </div>
         </div>
     </div>
