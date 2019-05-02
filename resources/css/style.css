@@ -102,6 +102,12 @@ header {
 
 .desktop ul a {
     padding: 0 1rem;
+    transition: all 250ms ease-out 100ms;
+}
+
+.desktop ul a:hover {
+    color: blue;
+    font-size: 1.125rem;
 }
 
 .desktop ul a:last-child {
@@ -164,6 +170,15 @@ header {
     text-align: center;
     color: white;
     font-weight: 300;
+    transition: all 500ms ease-out;
+}
+
+.content a:hover {
+    position: relative;
+    top: 3px;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
 }
 
 .content .btn {
@@ -281,6 +296,14 @@ img.mob-img {
     background-color: #88cbdc;
 }
 
+.container {
+    transition: all 800ms ease-out;
+}
+
+.container:hover {
+    position: relative;
+    left: 3px;
+}
 
 @media only screen and (max-width: 800px) {
 
@@ -378,6 +401,12 @@ img.mob-img {
 .course {
     width: 32.5%;
     background-color: white;
+    transition: all 800ms ease-out;
+}
+
+.course:hover {
+    position: relative;
+    bottom: 2px;
 }
 
 .course span {
@@ -496,7 +525,7 @@ p.para {
 }
 
 @media only screen and (max-width: 750px) {
-    
+
     .thesis {
         display: none;
     }
